@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-height: 100svh;
+}
+
+  @font-face {
+    font-family: "vazir";
+    src: url("../fonts/vazir/Vazir-Bold-FD-WOL.woff") format("woff2"),
+      url("../fonts/vazir/Vazir-Bold-FD-WOL.woff") format("woff"),
+      url("../fonts/vazir/Vazir-Bold-FD-WOL.ttf") format("truetype");
+  }
+
+  body {
+    font-family: "vazir", sans-serif;
+    }
+  
